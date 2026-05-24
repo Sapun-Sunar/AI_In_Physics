@@ -65,7 +65,7 @@ Telemetry will output to the terminal.
 Once the epoch is reached, trained_demon_weights.pth will be generated.3. Conjure Reality (Generation) to hallucinate a novel geometric structure from the void:Bash python3 conjure.p
 A Matplotlib visualizer will render the finalized 2D geometry. Phase II (The Ascension Roadmap).
 
-**3. Future Directions**
+## Future Directions
 This repository serves as the mathematical foundation for an upcoming architectural overhaul:Spatial Matrices: Purging the 1D nn.Linear layers and installing a full 2D Convolutional U-Net with Skip Connections to process true pixel grids instead of coordinate points.
 
 The Steering Wheel: Integrating a Cross-Attention Mechanism ($Q, K, V$) to physically warp the latent space gravity based on textual prompts. Physics-Informed Loss (PINN): Upgrading the Judge to strictly enforce physical laws via differential equations during the backpropagation loop.
