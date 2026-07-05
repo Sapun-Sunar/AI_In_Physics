@@ -53,16 +53,24 @@ This engine proves that generative models do not memorize data points; they memo
 ## Execution Protocol
 
 **1. Initialize the Environment**
-Ensure PyTorch and Matplotlib are installed in your local environment.
-```bash
+Ensure PyTorch and Matplotlib are installed in your local environment:
+
+```bash 
 pip install torch matplotlib scikit-learn  
 ```
 
 **2. Ignite the Forge (Training)**
-To begin training the matrix and carving the vector field:Bash python3 forge.py
+To begin training the matrix and carving the vector field:
+
+```bash
+python3 04_forge.py
+```
 Telemetry will output to the terminal. 
 
-Once the epoch is reached, trained_demon_weights.pth will be generated.3. Conjure Reality (Generation) to hallucinate a novel geometric structure from the void:Bash python3 conjure.p
+Once the epoch is reached, trained_demon_weights.pth will be generated.3. Conjure Reality (Generation) to hallucinate a novel geometric structure from the void:
+```bash 
+python3 conjure.p
+```
 A Matplotlib visualizer will render the finalized 2D geometry. Phase II (The Ascension Roadmap).
 
 ## Future Directions
