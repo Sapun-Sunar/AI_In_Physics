@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import os
 
 # Import your proprietary architectures
-from brain import SpectroscopicBrain
-from generator import forge_pristine_universe
-from interference import FWHM_NORMALIZER
+from _01_brain import SpectroscopicBrain
+from _06_generator import forge_pristine_universe
+from _03_interference import FWHM_NORMALIZER
 def execute_interrogation():
     """
     The Visual Exam.

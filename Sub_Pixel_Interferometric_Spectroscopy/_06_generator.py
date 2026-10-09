@@ -1,7 +1,7 @@
 # Import the foundational physics modules
-from continuum import generate_lab_continuum
-from interference import apply_interference
-from noise import apply_sensor_noise
+from _02_continuum import generate_lab_continuum
+from _03_interference import apply_interference
+from _04_noise import apply_sensor_noise
 import matplotlib.pyplot as plt
 
 

@@ -5,8 +5,8 @@ import torch.optim as optim
 import os 
 import sys 
 
-from brain import SpectroscopicBrain
-from dataset import get_live_dataloaders
+from _01_brain import SpectroscopicBrain
+from _07_dataset import get_live_dataloaders
 
 def ignite_training(max_epochs=100, initial_learning_rate=0.0001, patience=5):
     """

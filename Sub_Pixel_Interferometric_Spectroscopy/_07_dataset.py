@@ -3,8 +3,8 @@ from torch.utils.data import Dataset, DataLoader
 import numpy as np
 
 # Import the Live Feeder Machine
-from generator import forge_pristine_universe
-from interference import FWHM_NORMALIZER
+from _06_generator import forge_pristine_universe
+from _03_interference import FWHM_NORMALIZER
 
 # --- THE UNIVERSAL CONSTANT ---
 

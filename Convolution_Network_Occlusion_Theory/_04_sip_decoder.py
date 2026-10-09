@@ -9,8 +9,9 @@ def decoded_matrix(file_path):
     return image_matrix
 
 if __name__ == "__main__":
+    FilePath = input("Insert your file to check:".strip("'\""))
+    img = decoded_matrix(FilePath)
     plt.figure(figsize=(8,6))
-    img = decoded_matrix("/Users/sapunsunar/Documents/GIT_Projects/Spectrometer_Analysis/Fabry_Perot_Analysis/Lab_Data/cadmium aborption line sep 22.sif")
     plt.imshow(img, cmap="inferno", origin='lower')
     plt.tight_layout()
     plt.savefig("fabry_perot_image",dpi=400)

@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
-from brain import Spectroscopic_Brain
+from _01_brain import Spectroscopic_Brain
 
 def photograph_ai_thoughts(matrix_path, model_path):
     print("Initiating Saliency Brain-Scan...")

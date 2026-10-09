@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter
 # Import the light source from your first module
-from continuum import generate_lab_continuum
+from _02_continuum import generate_lab_continuum
 
 # [!] Universal Constant for Sigmoid Sweet Spot Normalization
 FWHM_NORMALIZER = 10.0

@@ -1,7 +1,7 @@
 import torch
 import numpy as np
-from sip_decoder import decoded_matrix
-from brain import Spectroscopic_Brain
+from _04_sip_decoder import decoded_matrix
+from _01_brain import Spectroscopic_Brain
 
 def find_absorption_line_width(input_matrix, model_weights_path="spectroscopic_brain_hybrid.pth"):
     

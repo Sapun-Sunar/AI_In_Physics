@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from brain import Spectroscopic_Brain
-from data_creation import AbsoluteVoidForge
+from _01_brain import Spectroscopic_Brain
+from _02_data_creation import AbsoluteVoidForge
 
 
 

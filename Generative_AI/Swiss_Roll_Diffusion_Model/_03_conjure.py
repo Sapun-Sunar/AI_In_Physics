@@ -1,8 +1,8 @@
 import os
 import torch
 import matplotlib.pyplot as plt
-from Thermodynamics import T, beta, alpha, alpha_cum
-from Brain import model
+from _02_thermodynamics import T, beta, alpha, alpha_cum
+from _01_brain import model
 
 
 save_path = "trained_demon_weights.pth"

@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.optim as optim
 import os
 
-from Thermodynamics import T, alpha_cum, x0
-from Brain import model
+from _02_thermodynamics import T, alpha_cum, x0
+from _01_brain import model
 
 save_path = "trained_demon_weights.pth"
 

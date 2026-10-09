@@ -5,7 +5,7 @@ import os
 import torch
 import numpy as np
 import csv
-from brain import Spectroscopic_Brain
+from _01_brain import Spectroscopic_Brain
 
 
 def execute_arbitration(data_folder, model_weights_path, output_csv_name):
